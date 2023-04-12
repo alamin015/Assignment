@@ -1,0 +1,60 @@
+.item {
+    padding: 30px;
+    border: 1px solid #7e8ffe57;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.left  .div {
+    padding: 50px;
+    background: #0000001f;
+}
+.left img {
+    width: 145px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.btnMy {
+    padding: 9px 20px;
+    border: 1px solid #7E90FE;
+    color: #7E90FE;
+    font-size: 16px;
+    background: transparent;
+    border-radius: 5px
+}
+.btnMy:first-child{
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.text{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 15px;
+}
+.title {
+    font-weight: 800;
+    font-size: 24px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+
+.company{
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+    margin-bottom: 15px;
+}

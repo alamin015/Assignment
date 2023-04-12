@@ -1,0 +1,33 @@
+.banner {
+    background: linear-gradient(90deg, rgba(126, 144, 254, 0.05) 0%, rgba(152, 115, 255, 0.05) 100%);
+}
+.bannerContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.bannerContentText {
+    width: 50%;
+}
+.bannerContentText h2 {
+    font-weight: 800;
+    font-size: 60px;
+    color: #1A1919;
+}
+.bannerContentText h2 span {
+    color: #7E90FE;
+}
+.bannerContentText p{
+    font-weight: 500;
+    font-size: 18px;
+    color: #757575;
+    margin: 24px 0 32px 0;
+}
+.bannerImg {
+    width: 50%;
+}
+
+
+

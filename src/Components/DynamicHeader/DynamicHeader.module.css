@@ -1,0 +1,15 @@
+.dynamicHeader {
+    width: 100%;
+    background: url('../../assets/Images/Vector.png'),linear-gradient(90deg, rgba(126, 144, 254, 0.05) 0%, rgba(152, 115, 255, 0.05) 100%);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding: 80px 0;
+    background-size: contain;
+    text-align: center;
+}
+
+.dynamicHeader h3 {
+    font-weight: 800;
+    font-size: 32px;
+    color: #1A1919;
+}

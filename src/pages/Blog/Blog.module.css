@@ -1,0 +1,20 @@
+.item {
+    margin-bottom: 20px;
+}
+
+.mainContent {
+    margin-top: 40px;
+}
+
+.item h4{
+    font-size: 24px;
+    font-weight: 800;
+    color: #1A1919;
+    margin-bottom: 10px;
+}
+
+.item p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+}

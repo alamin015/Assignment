@@ -1,0 +1,25 @@
+.featureHeader {
+    font-weight: 800;
+    font-size: 45px;
+    text-align: center;
+    color: #1A1919;
+}
+.featureDesc {
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: #757575;
+    margin: 16px 0 32px 0;
+
+}
+
+.allFeatureJob {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(450px,1fr));
+    gap: 20px;
+}
+
+.seeAll {
+    text-align: center;
+    margin-top: 40px;
+}

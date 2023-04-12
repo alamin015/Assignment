@@ -1,0 +1,43 @@
+.header {
+    width: 100%;
+    background: url('../../assets/Images/Vector-1.png'),linear-gradient(90deg, rgba(126, 144, 254, 0.05) 0%, rgba(152, 115, 255, 0.05) 100%);
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 100px;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.nav  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color: #1A1919;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 44px;
+}
+.menu a{
+    color: #757575;
+    font-weight: 500;
+    font-size: 16px;
+    margin: 0 15px;
+}
+
+.menu a.active {
+    color: #7E90FE;
+}
+
+
+@media only screen and (max-width: 991px) {
+    .menu,.startBtn {
+        display: none;
+
+    }
+}
+

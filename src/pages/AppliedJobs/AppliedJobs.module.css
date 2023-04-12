@@ -1,0 +1,22 @@
+.margin {
+    margin-top: 20px;
+}
+
+.filter {
+    text-align: right;
+    margin-top: 50px;
+}
+
+.filter select {
+    padding: 9px 20px;
+    max-width: 300px;
+    width: 90%;
+    border: 1px solid #7e8ffe8a;
+    outline: none;
+    border-radius: 5px;
+    color: #566bf8;
+    
+}
+.filter select:focus {
+    border: 1px solid #566bf8;
+}
